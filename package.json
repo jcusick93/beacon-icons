@@ -1,0 +1,24 @@
+{
+  "name": "beacon-icons",
+  "version": "1.0.0",
+  "description": "The icons for the Beacon Design System, automated from Figma",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fetch": "dotenv -- npx figma-icon-getter --file WGLa6sHRYaIPlhyigtGaIP --out ./dist/icons/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcusick93/beacon-icons.git"
+  },
+  "author": "Josh Cusick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcusick93/beacon-icons/issues"
+  },
+  "homepage": "https://github.com/jcusick93/beacon-icons#readme",
+  "dependencies": {
+    "dotenv-cli": "^7.4.2",
+    "figma-icon-getter": "^0.0.2"
+  }
+}
