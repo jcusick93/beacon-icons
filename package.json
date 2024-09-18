@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "fetch": "dotenv -- npx figma-icon-getter --file WGLa6sHRYaIPlhyigtGaIP --out ./src/icons/svg/",
     "clean": "npx svgo --config=./svgo.config.js ./src/icons/svg/*.svg",
-    "build": "node build.js"
+    "build": "node build.js",
+    "start": "dotenv -- npx figma-icon-getter --file WGLa6sHRYaIPlhyigtGaIP --out ./src/icons/svg/ && npx svgo --config=./svgo.config.js ./src/icons/svg/*.svg && node build.js"
   },
   "repository": {
     "type": "git",
